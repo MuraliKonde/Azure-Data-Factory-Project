@@ -1,0 +1,21 @@
+{
+	"name": "Airport_ds_json_git",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage9",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "copy.json",
+				"folderPath": "git",
+				"fileSystem": "bronze"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

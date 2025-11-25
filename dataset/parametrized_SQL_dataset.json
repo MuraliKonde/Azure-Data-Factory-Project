@@ -1,0 +1,24 @@
+{
+	"name": "parametrized_SQL_dataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServer1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"dbname": {
+				"type": "string"
+			},
+			"tablename": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
