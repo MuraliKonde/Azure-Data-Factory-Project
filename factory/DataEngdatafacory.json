@@ -1,0 +1,9 @@
+{
+	"name": "DataEngdatafacory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "78151c36-b120-47ce-838a-7ac7c289314f",
+		"tenantId": "16b3c013-d300-468d-ac64-7eda0820b6d3"
+	}
+}
